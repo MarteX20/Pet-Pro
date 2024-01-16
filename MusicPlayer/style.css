@@ -60,7 +60,8 @@ html,body{
 .container .sidebar .logo:hover a,
 .container .sidebar .logo:hover i,
 .container .sidebar .menu ul li:hover a,
-.container .sidebar .menu ul li:hover i{
+.container .sidebar .menu ul li:hover i,
+.container main header .nav-links a:hover{
     color: #5773ff;
 }
 
@@ -122,4 +123,45 @@ html,body{
 .container .sidebar .playing .bottom i,
 .container .sidebar .playing .bottom p{
     color: #919191;
+}
+
+.container main{
+    padding: 20px 35px;
+}
+
+.container main header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container main header .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container main header .nav-links a{
+    text-transform: uppercase;
+    color: #919191;
+    transition: all 0.3s ease;
+}
+
+.container main header .search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 70%;
+    background-color: #1d1d1d;
+    border: 1px solid #464748;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container main header .search input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
 }
