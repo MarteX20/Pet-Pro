@@ -371,3 +371,43 @@ i {
     font-weight: bold;
     font-size: 14px;
 }
+
+#profileImg{
+    width: 45px;
+}
+
+.container .rSection {
+    padding: 20px 35px 20px 0;
+}
+
+.container .rSection .profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.container .rSection .profile i{
+    font-size: 20px;
+}
+
+.container .rSection .profile .user .left{
+    display: flex;
+    align-items: center;
+    background-color: #323232;
+    padding: 5px;
+    border-radius: 12px 0 0 12px;
+}
+
+.container .rSection .profile .user{
+    display: flex;
+}
+
+.container .rSection .profile .user .right{
+    background-color: #141212;
+    font-size: 19px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 0 12px 12px 0;
+}
