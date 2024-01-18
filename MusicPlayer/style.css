@@ -411,3 +411,10 @@ i {
     color: #fff;
     border-radius: 0 12px 12px 0;
 }
+
+.container .rSection .musicPlayer {
+    background-color: #202020;
+    border-radius: 8px;
+    color: #fff;
+    height: 85%;
+}
